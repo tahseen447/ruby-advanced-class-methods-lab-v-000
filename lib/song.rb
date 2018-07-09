@@ -46,7 +46,7 @@ class Song
   end
 
   def self.alphabetical
-  new_array = @@all.sort_by! {|song| song.name}
+     @@all.sort_by!.map {|song| song.name}
   end
 
     def self.new_from_filename(filename)

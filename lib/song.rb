@@ -49,7 +49,7 @@ class Song
   #  @@all.sort_by! {|song| song.name}
   end
 
-    def self.new_from_filename
+    def self.new_from_filename(song_)
     end
 
     def self.create_from_filename

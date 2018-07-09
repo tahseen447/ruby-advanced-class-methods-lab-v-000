@@ -45,9 +45,6 @@ class Song
     new_song
   end
 
-  def self.destroy_all
-    @@all.clear_all
-  end
   def self.alphabetical
     @@all.sort_by! {|song| song.name}
     end

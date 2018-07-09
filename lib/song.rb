@@ -33,7 +33,7 @@ class Song
     new_song.save
   end
 
-  def self.find_by_name
+  def self.find_by_name(name)
   end
 
 end

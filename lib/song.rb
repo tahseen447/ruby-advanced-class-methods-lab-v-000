@@ -46,7 +46,7 @@ class Song
   end
 
   def self.alphabetical
-   @@all.sort_by! {|song| song.name}
+   @@all.map.sort_by! {|song| song.name}
    binding.pry
   end
 

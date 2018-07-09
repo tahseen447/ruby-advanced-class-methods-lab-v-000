@@ -47,7 +47,6 @@ class Song
 
   def self.alphabetical
    @@all.map.sort_by! {|song| song.name}
-   binding.pry
   end
 
     def self.new_from_filename(filename)

@@ -8,7 +8,7 @@ class Song
   end
 
   def self.all
-    @@all.uniq!
+    @@all
   end
 
   def save
@@ -46,6 +46,7 @@ class Song
   end
 
   def self.alphabetical
+
    @@all.sort_by! {|song| song.name}
    binding.pry
   end
